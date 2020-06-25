@@ -29,8 +29,8 @@
         </ChildComponent>
       </template>
       <hr>
-      <button @click="incrementCount">おせや</button>
-       <P>{{ count }}回押したよ♡</P> 
+      <button @click="incrementCount">CLICK</button>
+       <P>{{ count }}回押した</P> 
        <hr>
        <input type="text" v-model="inputText">
        <p>computed: {{ getUpperCaseText }}</p>
